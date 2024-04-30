@@ -1,0 +1,135 @@
+<html>
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Our Contact Address</title>
+  <style>
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+      background-color: darkcyan;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: purple;
+    }
+    /* Unvisited link */
+    a:link {
+      color: brown; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: white;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: red;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1200px; /* Adjust this value as needed */
+
+      padding: 8px;
+     
+    }
+    section{
+    padding:10px;
+    }
+  </style>
+  </head>
+
+  <header>
+
+<body bgcolor="white">
+  <form class="d-flex" role="search" action="search.php">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+    <img src="./Images/4.jpg" width="90" height="60" alt="Logo">
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./HOME.html">HOME</a>
+    <li style="display: inline; margin-right: 10px;"><a href="./ABOUT US.html">ABOUT US</a>
+      <li style="display: inline; margin-right: 10px;"><a href="./CONTACT US.html">CONTACT US</a>
+    <li style="display: inline; margin-right: 10px;"><a href="./attendance.php">Attendance</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./classschedule.php">Classschedule</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./equipment.php">Equipment</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./member.php">member</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./payment.php">Payment</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./trainer.php">Trainer</a>
+  </li>
+    <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Change Acount</a>
+        <a href="logout.php">Logout</a>
+    </li><br><br>
+    
+    
+    
+  </ul>
+
+</header>
+<section>
+	<h2><bold><u> OUR CONTACT US</u></bold></h2>
+<ul></ul>
+  <li>Address: 125 Main Street,Musanze city, State</li>
+  <li>Phone: +250 788903506</li>
+  <li>Email: info@graduatest.com</li>
+</ul>
+
+<form action="submit_contact" method="POST">
+  <label for="name">Names:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="phone">Telephone:</label><br>
+  <input type="tel" id="phone" name="phone"><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea>
+
+  <input type="submit" value="send">
+</form>
+<p>Connect with us on social media or social networkings:
+
+  <a href="https://www.twitter.com/info@graduatest.com">Twitter</a>
+  <a href="https://www.facebook.com/info@graduatest.com">Facebook</a>
+  <a href="https://www.instagram.com/info@graduatest.com">Instagram</a>
+  <a href="https://www.linkedin.com/info@graduatest.com">LinkedIn</a>
+</p>
+</section>
+
+<footer>
+  <center> 
+    <b><h2>2024, Designed by: @Bonheur Manzi</h2></b>
+  </center>
+</footer>
+
+</body>
+</html>
+
